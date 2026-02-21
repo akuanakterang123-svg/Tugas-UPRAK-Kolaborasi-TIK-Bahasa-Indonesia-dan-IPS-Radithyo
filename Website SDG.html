@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SDG 1 Ultimate | No Poverty</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--sdg-red:#E5243B;
+--glass: rgba(255,255,255,0.12);
+--glass-border: rgba(255,255,255,0.25);
+}
+
+*{box-sizing:border-box;}
+
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:
+linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.75)),
+url(TAKE.jpg);
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+color:white;
+overflow-x:hidden;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+animation:fadeDown 1.5s ease;
+}
+
+.hero h1{
+font-size:48px;
+margin:0;
+font-weight:700;
+text-shadow:0 0 25px rgba(229,36,59,0.8);
+}
+
+.hero p{
+font-size:20px;
+opacity:0.9;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:30px;
+}
+
+.card{
+background:var(--glass);
+backdrop-filter:blur(20px);
+border:1px solid var(--glass-border);
+border-radius:20px;
+padding:30px;
+margin-bottom:30px;
+box-shadow:
+0 0 25px rgba(0,0,0,0.4),
+0 0 40px rgba(229,36,59,0.25);
+transition:0.4s;
+animation:fadeUp 1.5s ease;
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.02);
+box-shadow:0 0 40px rgba(229,36,59,0.8);
+}
+
+h2{
+margin-top:0;
+color:white;
+border-left:5px solid var(--sdg-red);
+padding-left:15px;
+}
+
+.btn{
+background:linear-gradient(45deg,#E5243B,#ff6a7a);
+padding:15px 25px;
+border-radius:12px;
+text-decoration:none;
+color:white;
+font-weight:600;
+display:inline-block;
+margin-top:15px;
+transition:0.3s;
+box-shadow:0 0 20px rgba(229,36,59,0.6);
+}
+
+.btn:hover{
+transform:scale(1.1);
+box-shadow:0 0 35px rgba(229,36,59,1);
+}
+
+.badge{
+position:fixed;
+top:20px;
+right:20px;
+background:var(--sdg-red);
+padding:15px;
+border-radius:15px;
+font-weight:700;
+box-shadow:0 0 20px rgba(229,36,59,0.8);
+animation:pulse 2s infinite;
+}
+
+footer{
+text-align:center;
+padding:40px;
+background:rgba(0,0,0,0.5);
+backdrop-filter:blur(10px);
+font-weight:600;
+font-size:18px;
+}
+
+@keyframes fadeDown{
+from{opacity:0;transform:translateY(-50px)}
+to{opacity:1;transform:translateY(0)}
+}
+
+@keyframes fadeUp{
+from{opacity:0;transform:translateY(50px)}
+to{opacity:1;transform:translateY(0)}
+}
+
+@keyframes pulse{
+0%{box-shadow:0 0 10px rgba(229,36,59,0.5)}
+50%{box-shadow:0 0 30px rgba(229,36,59,1)}
+100%{box-shadow:0 0 10px rgba(229,36,59,0.5)}
+}
+
+</style>
+</head>
+<body>
+
+<div class="badge">SDG 1</div>
+
+<div class="hero">
+<h1>NO POVERTY</h1>
+<p>End Poverty in All Its Forms Everywhere</p>
+<p>Radithyo Christian Nugroho | 9B | 24</p>
+</div>
+
+<div class="container">
+
+<div class="card">
+<h2>Informasi Siswa</h2>
+<p><b>Nama:</b> Radithyo Christian Nugroho</p>
+<p><b>Kelas:</b> 9B</p>
+<p><b>Absen:</b> 24</p>
+</div>
+
+<div class="card">
+<h2>Dokumen Proyek Kolaborasi IPS, TIK, Bahasa Indonesia</h2>
+<!-- MASUKKAN LINK DOKUMEN DI SINI -->
+<a href="dokumen tugas uprak .docx" class="btn" target="_blank">Buka Dokumen</a>
+</div>
+
+<div class="card">
+<h2>Tentang SDG 1</h2>
+<p>
+Tujuan SDG 1 adalah mengakhiri kemiskinan dalam segala bentuk di seluruh dunia.
+Website ini merupakan bagian dari proyek edukasi untuk meningkatkan kesadaran tentang kemiskinan.
+</p>
+</div>
+
+</div>
+
+<footer>
+Radithyo Christian Nugroho
+</footer>
+
+</body>
+</html>
